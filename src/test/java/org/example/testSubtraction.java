@@ -1,14 +1,16 @@
+
 package org.example;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import org.junit.jupiter.api.Test;
 
-public class CalcTest {
-  Calc c = new Calc();
+public class testSubtraction {
+
 
     @Test
-    void testAddition() {
-        assertEquals(2, c.add(4,2));
+    public void testSubtraction() {
+  
+        Calc c = new Calc();
+        assertEquals(2, c.subtract(4, 2));
     }
-
 }
